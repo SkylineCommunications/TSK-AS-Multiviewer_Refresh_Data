@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DMSScript options="272" xmlns="http://www.skyline.be/automation">
+	<Name>TSK-AS-Multiviewer_Refresh_Data</Name>
+	<Description></Description>
+	<Type>Automation</Type>
+	<Author>YTL</Author>
+	<CheckSets>FALSE</CheckSets>
+	<Folder></Folder>
+	<Protocols>
+		<Protocol id="1">
+			<Description>MultiViewer</Description>
+			<Name>Tata Sky India Limited Multiviewer Manager</Name>
+			<Version>Production</Version>
+			<DefaultElement>
+			</DefaultElement>
+		</Protocol>
+	</Protocols>
+	<Memory>
+	</Memory>
+	<Parameters>
+	</Parameters>
+	<Script>
+		<Exe id="2" type="set">
+			<Param protocol="1">51</Param>
+			<Value>1</Value>
+		</Exe>
+	</Script>
+</DMSScript>
